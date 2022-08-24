@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form name="formulario" action="" method="post">
+        <input 
+        type="text"
+        name="primer_nombre"
+        placeholder="ingresa tu nombre"
+        maxlength="20"
+        minlength="0"
+        size="30"
+        required
+        > 
+        <br>
+        <br>
+        <input
+            type="password"
+            name="Contraseña"
+            placeholder="Ingresa contraseña"
+            required
+            >
+        <br>
+        <br>
+        <input
+            type="number"
+            name="numero"
+            min="-1"
+            max="10"
+            value="3"
+            >
+        <br>
+        <br>
+        <label>
+            Si o No -- opcion 1
+            <input type="checkbox">
+        </label>
+        <br>
+        <br>
+
+        <label for="condicion_2" type>Si o No --opcion 2</label>
+        <input
+          type="checkbox"  
+          id="condicion_2"
+        >
+        <br>
+        <p>Rango de edad:</p>
+        <label>
+            0-30
+            <input
+                name="edad"
+                type="radio"
+                value="0-30"
+            >
+        </label>
+        <br>
+        <label>
+            30-40
+            <input
+                name="edad"
+                type="radio"
+                value="30-40"
+            >
+        </label>
+        <br>
+        <label>
+            40-50
+            <input
+                name="edad"
+                type="radio"
+                value="40-50"
+            >
+        </label>
+        <br>
+        <label form="preferida">
+            Ingresa tu hora preferida
+        </label>
+        <input
+            id="preferida"
+            type="time"
+            name="hora_preferida"
+            min="09:00"
+            max="23:00"
+            >
+        <br>
+        <label>
+            Ingresa tu dia preferido
+            <input
+                type="datetime"
+                name="tiempo_preferido">
+        </label>
+        <br>
+        <label>
+            Ingresa tu dia preferido
+            <input
+                type="date"
+                name="dia_preferido"
+                max="02-08-2022">
+        </label>
+        <br>
+        <br>
+        <label for="sex">
+            Genero
+        </label>
+        <select name="genero" id="sex">
+            <option value="hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <br>
+        <textarea
+            placeholder="Ingresa una observacion"
+            name="observacion"
+            rows="10"
+            cols="35"
+            ></textarea>
+        <br>    
+        <br>
+        <button type="submit">
+            Enviar
+        </button>
+
+    </form>
+    
+</body>
+</html>

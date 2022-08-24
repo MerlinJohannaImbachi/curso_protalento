@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria DEV.F</title>
+    <link rel="icon" href="./img/pizza.png">
+</head>
+<body>
+    <h1>Pizzeria DEV.F</h1>
+    <form name="pedidos" method="post">
+        <label>
+            Nombre:
+            <input 
+            type="text"
+            name="Nombre"
+            placeholder="Nombre"
+            maxlength="20"
+            minlength="0"
+            size="30"
+            required
+            > 
+        </label>
+        <br><br>
+       <label>
+        Correo:
+        <input
+        type="email"
+        name="email"
+        placeholder="Correo"
+        maxlength="30"
+        size="30"
+        required>
+       </label>
+       <br><br>
+       <label>Dirección:
+            <input 
+            type="address" 
+            name="address" 
+            placeholder="Dirección"
+            maxlength="50"
+            size="30"
+            required >
+       </label>
+       <br><br>
+       <label>
+        Cantidad de Pizzas:
+        <input type="number" name="cantidad" min="1" max="100" required>
+       </label>
+       
+       <br><br>
+       <label>Tipo de pizza</label>
+       <select name="tipo_de_pizza">
+
+        <option selected>Napolitana</option>
+        <option>Peperoni</option>
+        <option >Vegana</option>
+        <option> 4 Quesos</option>
+        </select>
+
+       <br><br>
+       <label>Hora de entrega:</label>
+       <input type="time" name="hora" required>
+       <br><br>
+       <br>
+        <textarea
+            placeholder="Ingresa una observacion"
+            name="observacion"
+            rows="10"
+            cols="35"
+            ></textarea>
+            <br><br>
+        <button type="submit">
+            Enviar
+        </button>
+
+    </form>
+    
+</body>
+</html>
