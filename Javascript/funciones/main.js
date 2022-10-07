@@ -51,3 +51,6 @@
  div2.appendChild(p);
  div2.appendChild(img);
  divRoot.appendChild(div2);
+
+
+ console.log('hola mundo')
