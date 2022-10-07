@@ -5,7 +5,131 @@
     font-family:'Roboto', sans-serif ;
 }
 
+@media (min-width: 0px) and (max-width: 755px) {
+    .first-container {
+      width: 504px;
+    }
+    .first-container .flex-container .grid-container{
+    position: static !important;
+    visibility: visible !important;
+    float: left;
+    display: block;
+    }
+
+}
+@media (min-width: 756px) and (max-width: 1007px) {
+     .first-container {
+      width: 756px;
+    }
+    .first-container .flex-container .grid-container{
+        position: static !important;
+        visibility: visible !important;
+        float: left;
+        display: block;
+        }
+}
+
+@media (min-width: 1008px) and (max-width: 1259px) {
+    .first-container {
+      width: 1008px;
+    }
+    .first-container .flex-container .grid-container{
+        position: static !important;
+        visibility: visible !important;
+        float: left;
+        display: block;
+        }
+}
+ @media (min-width: 1260px) and (max-width: 1511px) {
+        .first-container {
+        width: 1260px;
+        }
+        .first-container .flex-container .grid-container{
+            position: static !important;
+            visibility: visible !important;
+            float: left;
+            display: block;
+            }
+}
+@media (min-width: 1512px) and (max-width: 1763px) {
+    .first-container {
+      width: 1512px;
+    }
+    .first-container .flex-container .grid-container{
+        position: static !important;
+        visibility: visible !important;
+        float: left;
+        display: block;
+        }
+}
+@media (min-width: 1764px) and (max-width: 2015px) {
+    .first-container {
+      width: 1764px;
+    }
+    .first-container .flex-container .grid-container{
+        position: static !important;
+        visibility: visible !important;
+        float: left;
+        display: block;
+        }
+}
+@media (min-width: 2016px) and (max-width: 2267px) {
+    .first-container {
+          width: 2016px;
+        }
+        .first-container .flex-container .grid-container{
+            position: static !important;
+            visibility: visible !important;
+            float: left;
+            display: block;
+            }
+}
+@media (min-width: 2268px) and (max-width: 2519px) {
+    .first-container {
+      width: 2268px;
+    }
+    .first-container .flex-container .grid-container{
+        position: static !important;
+        visibility: visible !important;
+        float: left;
+        display: block;
+        }
+}
+@media (min-width: 2520px) and (max-width: 2771px) {
+    .first-container {
+      width: 2520px;
+    }
+    .first-container .flex-container .grid-container{
+        position: static !important;
+        visibility: visible !important;
+        float: left;
+        display: block;
+        }
+}
+@media (min-width: 2772px) and (max-width: 3023px) {
+    .first-container{
+      width: 2772px;
+    }
+    .first-container .flex-container .grid-container{
+        position: static !important;
+        visibility: visible !important;
+        float: left;
+        display: block;
+        }
+}
+@media (min-width: 3024px) and (max-width: 3275px) {
+    .first-container {
+          width: 3024px;
+        }
+        .first-container .flex-container .grid-container{
+            position: static !important;
+            visibility: visible !important;
+            float: left;
+            display: block;
+            }
+}
 .flex-container{
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +175,7 @@
     padding-top: 1px;
     padding-right: 1rem;
 }
+
 .init1{
     padding-top: 10px;
     padding-right: 1rem;
@@ -192,10 +317,11 @@ cursor: pointer;
    justify-content: center;
    margin: 0 auto;
    padding: 10px;
+   width: 80%;
    
 }
 .grid-item {
-    width: 230px;
+    width: 80%;
     margin-bottom: 30px;
     border-radius: 15px;
     box-shadow: 0 2px 0 rgba(0,0,0,0.22);
